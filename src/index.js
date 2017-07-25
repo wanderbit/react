@@ -1,16 +1,10 @@
-import css from './css/style.less';
+import React from 'react';
+import ReactDom from 'react-dom';
 
-console.log(css);
-var str = require('./constant.js');
-var $ = require('jquery');
+class HelloMessage extends React.Component {
+    render() {
+        return <div>Hello {this.props.name}</div>;
+    }
+}
 
-var App = function() {
-    console.log(str);
-    $('body').append('testjq');
-    document.body.innerHTML += `<div class="${css.green}">1231</div>`;
-    $('body').append('<div><input><table>');
-};
-
-var user = new App();
-
-
+ReactDOM.render(<HelloMessage name="John" />, mountNode);
