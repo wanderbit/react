@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "react",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanderbit/react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "wander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanderbit/react/issues"
+  },
+  "homepage": "https://github.com/wanderbit/react#readme"
+}
